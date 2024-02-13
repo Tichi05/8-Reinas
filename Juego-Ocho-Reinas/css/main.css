@@ -1,0 +1,73 @@
+/* Estilo del contenedor para centrar la tabla */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Estilos de la tabla */
+table {
+  border-collapse: collapse; 
+  border-width: 1px; 
+  border-style: solid; 
+  border-spacing: 0 50px;
+  border-color: black;
+  width: 400px; /* Ajusta el ancho de la tabla según tus necesidades */
+  height: 400px; /* Ajusta la altura de la tabla según tus necesidades */
+} 
+
+td,
+th {
+  border-width: 1px;
+  border-style: solid;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+tr:nth-child(even) td:nth-child(even),
+tr:nth-child(odd) td:nth-child(odd) {
+  background-color: #eee;
+  /* Color para las celdas pares */
+}
+
+tr:nth-child(even) td:nth-child(odd),
+tr:nth-child(odd) td:nth-child(even) {
+  background-color: #7a7a7a;
+  /* Color para las celdas impares */
+}
+
+.reina-img {
+  width: 80%;
+  /* Ajusta el ancho de la imagen según tus necesidades */
+  height: 80%;
+  /* Ajusta la altura de la imagen según tus necesidades */
+  position: absolute;
+  top: 50%;
+  /* Centrar verticalmente la imagen en la celda */
+  left: 50%;
+  /* Centrar horizontalmente la imagen en la celda */
+  transform: translate(-50%, -50%);
+  /* Ajustar la posición para centrar la imagen */
+}
+
+/* Estilos para el h1 */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estilos para el h2 */
+h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.boton {
+  text-align: center;
+}
+
+.atacada {
+  background-color: red; /* Puedes ajustar el color de fondo según tus preferencias */
+}
+
+
+
